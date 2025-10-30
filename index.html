@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinhala Lorem Ipsum Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <div class="container dark-mode">
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="dark-mode-checkbox" checked>
+            <label for="dark-mode-checkbox"><span class="slider round"></span></label>
+        </div>
+        <h1>Sinhala Lorem Ipsum Generator</h1>
+        <div class="options">
+            <div class="grid-container">
+                <div class="input-group">
+                    <label for="paragraphs">Number of Paragraphs:</label>
+                    <input type="range" id="paragraphs" value="5" min="1" max="100"><span id="paragraphs-value">5</span>
+                </div>
+                <div class="input-group">
+                    <label for="sentences-per-paragraph">Sentences per Paragraph:</label>
+                    <input type="range" id="sentences-per-paragraph" value="4" min="1" max="10"><span id="sentences-per-paragraph-value">4</span>
+                </div>
+                <div class="input-group">
+                    <label for="sentences-per-paragraph-variation">Sentences per Paragraph Variation:</label>
+                    <input type="range" id="sentences-per-paragraph-variation" value="2" min="0" max="9"><span id="sentences-per-paragraph-variation-value">2</span>
+                </div>
+            </div>
+            <button id="generate">Generate</button>
+            <button id="copy">Copy to Clipboard</button>
+        </div>
+        <div id="output"></div>
+        <div id="counts">
+            <span>Word Count: <span id="word-count-display">0</span></span>
+            <span>Character Count: <span id="char-count-display">0</span></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

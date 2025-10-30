@@ -1,0 +1,17 @@
+{
+  "name": "sinhala-lorem-ipsum",
+  "version": "1.0.0",
+  "description": "A Sinhala Unicode Lorem Ipsum Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo "Error: no test specified" && exit 1"
+  },
+  "keywords": [
+    "sinhala",
+    "lorem",
+    "ipsum",
+    "generator"
+  ],
+  "author": "SamSeen",
+  "license": "ISC"
+}
