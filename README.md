@@ -20,7 +20,7 @@ This is a simple, client-side Sinhala Unicode Lorem Ipsum Generator built with H
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/MrSamSeen/sinhala-lorem-ipsum-generator.git
+    git clone https://github.com/MrSamSeen/SinhalaLoremIpsum.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
